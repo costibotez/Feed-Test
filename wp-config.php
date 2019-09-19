@@ -63,6 +63,7 @@ define( 'NONCE_SALT',       '6SFoZ(j7fZsMn%,kC=)fIny~`sHT /um+ZL$8P K-ve3s6sXYfp
  */
 $table_prefix = 'wp_';
 
+define('WP_DEBUG', true);
 
 
 
