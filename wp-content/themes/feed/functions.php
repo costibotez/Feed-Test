@@ -221,8 +221,10 @@ function list_cities_cb($atts) {
 		<?php while( $query->have_posts() ) : ?>
 			<?php $query->the_post(); ?>
 			<div class="city">
-				<?php the_title(); ?>
-				<p> Population <?=get_field('population');?></p>
+				<p><strong><?php the_title(); ?></strong>  Population <?=get_field('population');?></p>
+				<div class="photo">
+					<img src="" alt="<?php the_title(); ?>"/>
+				</div>
 			</div>
 		<?php endwhile; ?>
 		</div>

@@ -983,3 +983,10 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.cities-container {
+    border: 10px solid;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
