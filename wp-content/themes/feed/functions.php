@@ -212,6 +212,7 @@ function list_cities_cb($atts) {
 		'post_type'	 	=> 'city',
 		'posts_per_page'=> -1,
 		'post_status'	=> array('publish'),
+		'order'			=> 'ASC'
 	);
 	$query = new WP_Query($city_args);
 
